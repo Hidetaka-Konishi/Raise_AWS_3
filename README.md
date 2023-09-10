@@ -15,3 +15,5 @@
 
 # Cloud9でMySQLサーバーを起動・停止させるコマンド
 起動　```sudo service mysqld start```または```sudo systemctl start mysqld```
+
+停止　```sudo systemctl stop mysqld```
