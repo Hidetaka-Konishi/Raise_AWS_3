@@ -1,6 +1,6 @@
 # AWS Cloud9を使ってアプリケーションをデプロイするための手順
 1. ターミナルでGitHubのリポジトリをクローンするために```git clone [リポジトリのURL]```を実行する。
-2. MySQLをインストールする。
+2. MySQLをインストールする。https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
 
 
 
