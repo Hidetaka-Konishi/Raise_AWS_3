@@ -14,6 +14,6 @@
 バージョンを調べるためのコマンドは```[プログラミング言語やサーバー名] --version```のように指定する。例えば、```puma --version```や```ruby --version```といった感じ。
 
 # Cloud9でMySQLサーバーを起動・停止させるコマンド
-- 起動　```sudo systemctl start mysqld```
+起動　```sudo systemctl start mysqld```
 
-- 停止　```sudo systemctl stop mysqld```
+停止　```sudo systemctl stop mysqld```
