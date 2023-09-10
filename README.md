@@ -13,4 +13,5 @@ cd ..：現在のディレクトリから一つ前のディレクトリ(親デ�
 # バージョンを調べるコマンド
 バージョンを調べるためのコマンドは```[プログラミング言語やサーバー名] --version```のように指定する。例えば、```puma --version```や```ruby --version```といった感じ。
 
-
+# Cloud9でMySQLサーバーを起動・停止させるコマンド
+起動　```sudo service mysqld start```または```sudo systemctl start mysqld```
