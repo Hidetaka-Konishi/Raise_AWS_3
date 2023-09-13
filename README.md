@@ -1,4 +1,4 @@
-# AWS Cloud9を使ってアプリケーションをデプロイし、ブラウザ接続する手順
+# Cloud9を使ってアプリケーションをデプロイし、ブラウザ接続する手順
 1. Cloud9のターミナルでGitHubのリポジトリをクローンするために```git clone [リポジトリのURL]```を実行する。
 2. MySQLをインストールする。MySQLの起動が成功したらパスワードを変更する。手順 → [MySQLのインストール](https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
 )
