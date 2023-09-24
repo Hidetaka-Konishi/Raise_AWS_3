@@ -14,11 +14,11 @@
 10. socketのパスをコピーして、config/database.ymlのsocketをコピーしたものに書き換える
 11. yarnをインストール　```npm install -g yarn```
 12. プロジェクトのセットアップと初期化　```bin/setup```
-13. 
-14. Bundlerをインストールするコマンド```gem install bundler```を実行する。
-15. ```cd リポジトリ名```でクローンしたリポジトリのディレクトリに移動したら```bundle install```を実行する。
-16. アプリケーションに必要なファイルの設定を行ったら```rails s```でアプリケーションを起動する。
-17. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。Cloud9の右下にある「Browser」をクリックする。
+13. アプリケーションサーバーの起動　```bin/cloud9_dev```
+14. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。
+15. Blocked hostというエラーが発生するので、そのエラー文に表示されているconfig.hosts << "ec2-34-239-115-7.compute-1.amazonaws.com"をコピーしてconfig→environments→development.rbファイルの末尾に書き込む
+16. Ctrl + Cでサーバーをストップして、```bin/setup```で再度実行する。
+17. 「Browser」をクリックすることでアプリが表示される
 
 # Cloud9上で目的のディレクトリに移動するためのコマンド
 ```pwd```　現在地を把握できる
