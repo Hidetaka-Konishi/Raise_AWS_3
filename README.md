@@ -1,13 +1,14 @@
 # Cloud9を使ってアプリケーションをデプロイし、ブラウザ接続する手順
-1. Cloud9のターミナルでGitHubのリポジトリをクローンするために```git clone [リポジトリのURL]```を実行する。
-2. MySQLをインストールする。MySQLの起動が成功したらパスワードを変更する。手順 → [MySQLのインストール](https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
+1. ターミナルでGitHubのリポジトリをクローンするために```git clone [リポジトリのURL]```を実行する。
+2. rubyをインストールするために```rvm ```
+3. MySQLをインストールする。MySQLの起動が成功したらパスワードを変更する。手順 → [MySQLのインストール](https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
 )
 
-3. yarnをインストールするために```npm install -g yarn```を実行する。yarnがインストールされたら依存関係をインストールするコマンド```yarn install```を実行する。
-4. Bundlerをインストールするコマンド```gem install bundler```を実行する。
-5. ```cd リポジトリ名```でクローンしたリポジトリのディレクトリに移動したら```bundle install```を実行する。
-6. アプリケーションに必要なファイルの設定を行ったら```rails s```でアプリケーションを起動する。
-7. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。Cloud9の右下にある「Browser」をクリックする。
+4. yarnをインストールするために```npm install -g yarn```を実行する。yarnがインストールされたら依存関係をインストールするコマンド```yarn install```を実行する。
+5. Bundlerをインストールするコマンド```gem install bundler```を実行する。
+6. ```cd リポジトリ名```でクローンしたリポジトリのディレクトリに移動したら```bundle install```を実行する。
+7. アプリケーションに必要なファイルの設定を行ったら```rails s```でアプリケーションを起動する。
+8. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。Cloud9の右下にある「Browser」をクリックする。
 
 # Cloud9上で目的のディレクトリに移動するためのコマンド
 ```pwd```　現在地を把握できる
