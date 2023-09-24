@@ -6,12 +6,19 @@
 3. bundlerをインストール　```gem install bundler:2.3.14```
 4. MySQLをインストールする。MySQLの起動が成功したらパスワードを変更する。手順 → [MySQLのインストール](https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
 )
-
-6. yarnをインストールするために```npm install -g yarn```を実行する。yarnがインストールされたら依存関係をインストールするコマンド```yarn install```を実行する。
-7. Bundlerをインストールするコマンド```gem install bundler```を実行する。
-8. ```cd リポジトリ名```でクローンしたリポジトリのディレクトリに移動したら```bundle install```を実行する。
-9. アプリケーションに必要なファイルの設定を行ったら```rails s```でアプリケーションを起動する。
-10. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。Cloud9の右下にある「Browser」をクリックする。
+5. gemをインストール 　```bundle install```
+6. アプリのプロジェクトディレクトリに移動
+7. サンプルファイルをコピーして、自分の環境に合わせて設定値を変更　```cp config/database.yml.sample config/database.yml```
+8. アプリに使用しているデータベースにログインするときのパスワードをconfig/database.ymlファイルのpasswordに入力する
+9. データベースサーバーの設定ファイルに移動　less /etc/my.cnf
+10. socketのパスをコピーして、config/database.ymlのsocketをコピーしたものに書き換える
+11. yarnをインストール　```npm install -g yarn```
+12. プロジェクトのセットアップと初期化　```bin/setup```
+13. 
+14. Bundlerをインストールするコマンド```gem install bundler```を実行する。
+15. ```cd リポジトリ名```でクローンしたリポジトリのディレクトリに移動したら```bundle install```を実行する。
+16. アプリケーションに必要なファイルの設定を行ったら```rails s```でアプリケーションを起動する。
+17. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。Cloud9の右下にある「Browser」をクリックする。
 
 # Cloud9上で目的のディレクトリに移動するためのコマンド
 ```pwd```　現在地を把握できる
