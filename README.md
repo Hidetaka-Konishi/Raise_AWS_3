@@ -14,11 +14,12 @@
 10. socketのパスをコピーして、config/database.ymlのsocketをコピーしたものに書き換える
 11. yarnをインストール　```npm install -g yarn```
 12. プロジェクトのセットアップと初期化　```bin/setup```
-13. アプリケーションサーバーの起動　```bin/cloud9_dev```
-14. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。
-15. Blocked hostというエラーが発生するので、そのエラー文に表示されているconfig.hosts << "ec2-34-239-115-7.compute-1.amazonaws.com"をコピーしてconfig→environments→development.rbファイルの末尾に書き込む
-16. Ctrl + Cでサーバーをストップして、```bin/setup```で再度実行する。
-17. 「Browser」をクリックすることでアプリが表示される
+13. ImageMagickソフトウェアパッケージをインストール　```sudo yum install -y ImageMagick```
+14. アプリケーションサーバーの起動　```bin/cloud9_dev```
+15. Cloud9の「Run」の横にある「Preview」→「Preview Running Application」をクリック。
+16. Blocked hostというエラーが発生するので、そのエラー文に表示されているconfig.hosts << "ec2-34-239-115-7.compute-1.amazonaws.com"をコピーしてconfig→environments→development.rbファイルの末尾に書き込む
+17. Ctrl + Cでサーバーをストップして、```bin/setup```で再度実行する。
+18. 「Browser」をクリックすることでアプリが表示される
 
 # Cloud9上で目的のディレクトリに移動するためのコマンド
 ```pwd```　現在地を把握できる
