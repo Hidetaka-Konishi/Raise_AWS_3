@@ -7,7 +7,7 @@
 4. MySQLをインストールする。MySQLの起動が成功したらパスワードを変更する。手順 → [MySQLのインストール](https://github.com/MasatoshiMizumoto/raisetech_documents/blob/main/aws/docs/install_mysql_on_cloud9_amazon_linux_2.md
 )
 5. gemをインストール 　```bundle install```
-6. ```cd [プロジェクト名]```でアプリのプロジェクトディレクトリに移動
+6. ```cd [リポジトリ名]```でアプリのプロジェクトディレクトリに移動
 7. サンプルファイルをコピーして、自分の環境に合わせて設定値を変更　```cp config/database.yml.sample config/database.yml```
 8. アプリに使用しているデータベースにログインするときのパスワードをconfig/database.ymlファイルのpasswordに入力する
 9. データベースサーバーの設定ファイルに移動　less /etc/my.cnf
